@@ -1,0 +1,22 @@
+.Paper{
+  width: 60%;
+  background-color: white;
+  margin: auto;
+  padding: 30px;
+}
+
+.block{
+  border-top: 2px gray solid;
+}
+
+.Text{
+  padding-left: 7%;
+  font-size: 20px;
+}
+
+.FIO {
+  text-align: center;
+}
+body{
+  background-color: gray;
+}
