@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("../img/fon.jpg");
+  background-size: cover;
+  margin: 55px 70px 32px;
+}
+
+.Contacts{
+  display: block;
+  float: right;
+  color: #e6e6e6;
+  font-family: Tahoma;
+  font-size: 11px;
+  padding-top: 85px;
+  margin-right: 14px;
+}
+
+.Content img{
+  border: 3px double #868a84;
+  box-shadow: 0 0 3px 2px #000;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.first_column{
+  float: left;
+  width: 30%;
+  margin: 0 1% 0 0;
+}
+
+.first_column p{
+  color: #e6e6e6;
+  font-size: 15px;
+  font-family: Tahoma;
+  text-align: center;
+  margin-bottom: 53px;
+}
+
+.second_column{
+  float: left;
+  width: 30%;
+  margin:0 4%;
+}
+
+.second_column p{
+  color: #e6e6e6;
+  font-size: 15px;
+  font-family: Tahoma;
+  text-align: center;
+  margin-bottom: 53px;
+}
+
+.third_column{
+  float: right;
+  width: 30%;
+  margin: 0 0 0 1%;
+}
+
+.third_column p{
+  color: #e6e6e6;
+  font-size: 15px;
+  font-family: Tahoma;
+  text-align: center;
+  margin-bottom: 53px;
+}
+
+.clearfix::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.footer{
+  margin-top: 20%;
+}
+
+.footer p{
+  display: block;
+  color: #e6e6e6;
+  text-align: center;
+  font-size: 10px;
+  font-family: Tahoma;
+  }

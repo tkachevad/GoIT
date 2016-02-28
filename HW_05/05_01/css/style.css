@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(../img/foto.jpg);
+  background-size: cover;
+}
+
+.header_blue_line{
+  background-image: url(../img/blue_line.jpg);
+  height: 36px;
+  position: relative;
+}
+
+.menu_first {
+  text-decoration: none;
+}
+
+.menu_first img{
+  border-left: 1px solid #56a2dc;
+  padding:5px 0 0 19px;
+}
+
+.menu_first li{
+  float: right;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0 5px;
+  line-height: 36px;
+}
+
+.menu_first a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: #489ad4;
+  font-size: 14px;
+  font-family: Tahoma;
+}
+
+.menu_first li:hover{
+  background-color: #4eabda;
+}
+
+.menu_first a:hover{
+  color: white;
+}
+
+.menu_second li{
+  display: block;
+  margin: 0 15px 0 0;
+  list-style: none;
+  float: right;
+  padding: 0 10px;
+  line-height: 36px;
+  color: white;
+}
+
+.menu_second a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-family: Tahoma;
+}
+
+.menu_second li:hover{
+  background-color: #4aa6d8;
+}
+
+.menu_second a:hover{
+  text-decoration: underline;
+}
+
+.form{
+  height: 615px;
+  width: 560px;
+  background: rgba(15, 15, 15, 0.7);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -300px 0 0 -265px;
+}
+
+.form p{
+  text-align: center;
+  line-height: 20px;
+  font-size: 24px;
+  font-family: Tahoma;
+  color: white;
+  padding: 18px 0;
+  border-bottom: 2px solid #a3b198 ;
+}
+
+.facebook{
+  text-align: center;
+  /*display: block;*/
+  margin:35px 0 0;
+}
+
+.ou{
+  margin: 30px auto;
+}
+
+.ou legend{
+  text-align: center;
+  color: #999999;
+  padding: 10px;
+}
+
+.ou fieldset{
+  margin: 0 auto;
+  border: none;
+  border-bottom: 1px solid black;
+  border-top: 1px solid grey;
+  height: 19px;
+  width: 275px;
+}
+
+.input{
+  display: block;
+  width: 276px;
+  height: 35px;
+  background-color: black;
+  margin: 15px auto;
+  border:black;
+}
+
+.input[type="text"]:focus{
+  background-color: #1b5288;
+  box-shadow: inset 0px 0px 6px 11px rgba(27,82,136,1);
+  box-shadow: 0px 0px 6px 6px rgba(27,82,136,1);
+
+}
+
+.checkbox{
+  width: 276px;
+  margin: 0 auto;
+}
+
+.button{
+  display: block;
+  width: 155px;
+  height: 36px;
+  margin: 13px auto 0;
+  font-size: 14px;
+  font-family: Tahoma;
+  color: white;
+  background: linear-gradient(to top,#2e7ac4,#4faddb);
+  border: 2px solid #48a3d7;
+  border-radius: 3px;
+  /*box-shadow: 0px 0px 3px 2px rgba(46,123,196,1);*/
+}
+.text p{
+  font-size: 11px;
+}

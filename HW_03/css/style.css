@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #f9f9f9;
+}
+
+.Wrapper{
+  width: 964px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 52px 48px;
+}
+
+.Header img{
+  display: block;
+  margin-bottom: 40px;
+}
+
+.Menu li{
+  float: left;
+  display: block;
+}
+.Menu{
+  background-color: #595959;
+  margin-bottom: 40px;
+}
+
+.Menu a{
+  line-height: 40px;
+  padding: 10px 24px;
+  font-family: "Open sans";
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  margin: 0 38px 0 0;
+}
+
+.Menu a:hover{
+  background-color: #454545;
+  border-right: #838383 1px solid;
+  border-left: #838383 1px solid;
+  padding: 10px 23px;
+}
+
+.clearfix::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.Content{
+  float:right;
+  width: 678px;
+}
+
+.Content p{
+  padding: 40px 25px;
+}
+
+.Bike{
+  border: 1px solid #c8c8c8;
+  height: 400px;
+  width: 678px;
+}
+
+.Bike img{
+  margin: 46px auto;
+  display: block;
+}
+
+.SideBar{
+  float:left;
+  border: 1px solid #c8c8c8;
+  width: 240px;
+}
+
+.SideBar a{
+  display: block;
+  text-decoration: none;
+  line-height: 40px;
+  color: #656363;
+  font-size: 14px;
+  font-family: "Open Sans";
+  padding-left: 24px;
+}
+
+.SideBar a:hover{
+  background-color: #f9f9f9;
+  padding-left: 35px;
+}
+
+.SideBar li{
+  list-style: none;
+  display: block;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.Footer li{
+  float: left;
+  display: block;
+}
+
+.Footer{
+  background-color: #e1e1e1;
+}
+
+.Footer a{
+  line-height: 40px;
+  padding: 10px 24px;
+  font-family: "Open sans";
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  margin: 0 38px 0 0;
+}
+
+.Footer a:hover{
+  text-decoration: underline;
+}
+
+.Footer p{
+  display: block;
+  float: right;
+  line-height: 40px;
+  margin-right: 25px;
+}
