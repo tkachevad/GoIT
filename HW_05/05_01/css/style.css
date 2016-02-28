@@ -8,7 +8,7 @@ body{
   background-size: cover;
 }
 
-.header_blue_line{
+.header_blue_line {
   background-image: url(../img/blue_line.jpg);
   height: 36px;
   position: relative;
