@@ -6,6 +6,8 @@
 body{
   background-image: url(../img/foto.jpg);
   background-size: cover;
+  height: 1064px;
+  position: relative;
 }
 
 .header_blue_line {
@@ -37,15 +39,11 @@ body{
   color: #489ad4;
   font-size: 14px;
   line-height: 36px;
-  font-family: helvetica_neueregular;
-}
-
-.menu_first li:hover {
-  background-color: #4eabda;
 }
 
 .menu_first a:hover{
   color: white;
+  background-color: #4eabda;
 }
 
 .menu_second li{
@@ -62,7 +60,6 @@ body{
   color: white;
   font-size: 14px;
   line-height: 36px;
-  font-family: helvetica_neueregular;
 }
 
 .menu_second li:hover{
@@ -74,19 +71,18 @@ body{
 }
 
 .form{
-  height: 615px;
+  height: 620px;
   width: 560px;
   position: absolute;
   left: 50%;
   top: 50%;
-  margin:-290px 0 0 -280px;
+  transform: translate(-50%, -50%);
 }
 
 .form_first p{
   text-align: center;
   line-height: 20px;
   font-size: 24px;
-  font-family: helvetica_neueregular;
   color: white;
   padding: 18px 0;
 }
@@ -164,7 +160,6 @@ body{
   height: 36px;
   margin: 13px auto 21px;
   font-size: 14px;
-  font-family: helvetica_neueregular;
   color: white;
   background: linear-gradient(to top,#2e7ac4,#4faddb);
   border: 2px solid #48a3d7;
