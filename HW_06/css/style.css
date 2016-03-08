@@ -1,0 +1,638 @@
+.wrapper{
+  width: 910px;
+  height: 1310px;
+  margin: 8px auto 0;
+}
+
+header{
+  display: block;
+}
+
+.clearfix::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.top{
+  position: relative;
+  margin-bottom: 9px;
+}
+
+.phone{
+  float: left;
+  width: 21px;
+  height: 21px;
+  background-image: url('../img/phone.png'), linear-gradient(to bottom, #0d3559,#1f6786);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  border-radius: 50%;
+  margin: 4px 5px 0 7px;
+}
+
+.tel{
+  margin-top: 6px;
+  float: left;
+  letter-spacing: 0.45px;
+}
+
+.tel p{
+  color:#5e696d;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+.first_line{
+  width: 496px;
+  height: 27px;
+  float: left;
+  border-radius: 3px;
+  background-image: -moz-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+  background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+  background-image: -ms-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+  box-shadow: 0px 3px 3px 0px rgba(150, 150, 150, 0.75);
+  margin-left: 15px;
+}
+
+.first_line img{
+  margin: 4px 0 0 7px;
+  float: left;
+}
+
+.enter{
+  width: 30px;
+  height: 12px;
+  border:none;
+  background: transparent;
+  font-family: 'Lusida Sans Unicode';
+  font-size: 11px;
+  color: white;
+  margin: 4px 0 0 0px;
+  float: left;
+}
+
+.registration{
+  font-family: 'Lusida Sans Unicode';
+  font-size: 11px;
+  color: white;
+  margin: 6px 0 0 5px;
+  letter-spacing: 0.63px;
+  text-decoration: none;
+  float: left;
+  display: block;
+}
+
+
+.forgot_password{
+  font-family: 'Lusida Sans Unicode';
+  font-size: 12px;
+  color: #bfbfbf;
+  float: left;
+  display: block;
+  margin: 6px 0 0 20px;
+  letter-spacing: 1.2px;
+}
+
+.input{
+  display: block;
+  float: left;
+  width: 110px;
+  margin: 3px 4px 0px 3px;
+  height: 12px;
+}
+
+.links{
+  display: block;
+  width: 77px;
+  height: 22px;
+  float: left;
+  border: 1px solid rgb(189, 196, 199);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 2px 0px #c1c8cb;
+  border-radius: 50px 50px 50px 50px;
+  margin-left: 15px;
+}
+
+.links a{
+  float: left;
+  display: block;
+  margin: 1px -1px 0 9px;
+}
+
+.menu{
+  display: block;
+  width: 910px;
+  height: 34px;
+  background-image: linear-gradient(to bottom,#505860,#050506);
+  border-radius:3px 3px 3px 3px;
+  margin: 3px 0 0 0;
+  box-shadow: 1px 1px 2px 2px;
+}
+
+.menu_nav{
+  position: relative;
+  margin: 0 0 0 127px;
+  height: 34px;
+}
+
+.menu_nav li{
+  float: left;
+}
+
+.menu a{
+  float:left;
+  display: block;
+  text-decoration: none;
+  color:#b1bcc0;
+  text-transform: uppercase;
+  padding: 0 19px 0 20px;
+  margin-top: 4px;
+  line-height: 25px;
+  font-size: 13.64px;
+  font-family: "Lucida Sans Unicode";
+}
+
+.for_hover:hover{
+  background-image: linear-gradient(to top,#0d3458, #1f6787);
+  color: #fff;
+  border-radius: 20px;
+}
+
+.buy{
+  position: relative;
+  float: right;
+}
+
+.buy a{
+  float: right;
+  display: block;
+}
+
+.buy p{
+  float: right;
+  display: block;
+}
+
+.text{
+  font-family: Arial;
+  font-size: 11px;
+  color:#929b9f;
+  display: block;
+}
+
+.acount{
+  display: block;
+  font-family: Arial;
+  font-size: 12px;
+  color:#0d5a8f;
+}
+
+.search{
+  position: relative;
+  margin-top: 12px;
+}
+
+.search_for_car{
+  float: left;
+  width: 412px;
+  height: 132px;
+  border: solid 1px rgb(156, 156, 157);
+  border-radius: 17px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 5px 0px rgba(104, 104, 104, 0.75);
+  margin-left: 4px;
+}
+
+.search_tires{
+  float: left;
+  width: 190px;
+  height: 134px;
+  border: solid 1px rgb(156, 156, 157);
+  border-radius: 18px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 5px 0px rgba(150, 150, 150, 0.75);
+  margin: -1px 0 0 15px;
+}
+
+.search_discs{
+  float: right;
+  width: 266px;
+  height: 133px;
+  border: solid 1px rgb(156, 156, 157);
+  border-radius: 16px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 5px 0px rgba(150, 150, 150, 0.75);
+    margin: -1px 6px 0 11px;
+}
+
+.aside_left{
+  float: left;
+}
+
+.catalog{
+  width: 179px;
+  height: 23px;
+  border: 1px solid rgb(121, 135, 141);
+  border-top-left-radius: 50px 100px;
+  box-shadow: 0px 3px 3px 0px rgba(150, 150, 150, 0.75);
+  border-radius: 50px;
+  background-image: url('../img/file.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left;
+}
+
+.tires{
+  width: 149px;
+  height: 26px;
+  border: solid 1px rgb(121, 135, 141);
+  border-radius: 50px;
+  background-image: url('../img/circle.png');  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left;
+  margin: 15px 0 0 0;
+  background-position: 5px 1px;
+}
+
+.tires p{
+  color: #114165;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Lucida Sans Unicode";
+  line-height: 26px;
+  margin: 2px 0 0 30px;
+}
+
+.name li{
+  list-style: circle;
+  color: #465961;
+  font-size: 12.73px;
+  font-family: "Lucida Sans Unicode";
+  margin: 0 0 0 54px;
+  line-height: 26px;
+}
+
+.name a{
+  text-decoration: none;
+  margin-left: -7px;
+}
+
+.name li a:hover{
+  color: #0c3256;
+  font-size: 14px;
+  font-family: Arial;
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 25px;
+}
+
+.catalog{
+  margin: 18px 0px 0px 0px;
+}
+
+.catalog span{
+  font-size: 12.73px;
+  font-family: "Lucida Sans Unicode";
+  text-transform: uppercase;
+  color: #114165;
+  line-height: 26px;
+  margin-left: 27px;
+}
+
+.catalog_discs{
+  width: 149px;
+  height: 26px;
+  border: solid 1px rgb(121, 135, 141);
+  border-radius: 50px;
+  background-image: url('../img/circle.png');  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 3px 1px;
+  margin: -4px 0 0 1px;
+}
+
+.catalog_discs p{
+  color: #114165;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Lucida Sans Unicode";
+  line-height: 23px;
+  margin: 2px 0 0 29px;
+}
+
+.catalog_bolts{
+  width: 149px;
+  height: 26px;
+  border: solid 1px rgb(121, 135, 141);
+  border-radius: 50px;
+  background-image: url('../img/circle.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 3px 1px;
+  margin: -5px 0 0 1px;
+}
+
+.catalog_bolts p{
+  color: #114165;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Lucida Sans Unicode";
+  margin: 7px 0 0 29px;
+}
+
+.main{
+  width: 527px;
+  height: 628px;
+  border-radius: 3px;
+  margin: 14px auto;
+  background-image: -moz-linear-gradient( 90deg, rgb(35,75,93) 0%, rgb(118,141,151) 57%, rgb(201,207,209) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(35,75,93) 0%, rgb(118,141,151) 57%, rgb(201,207,209) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(35,75,93) 0%, rgb(118,141,151) 57%, rgb(201,207,209) 100%);
+  position: relative;
+}
+
+.main figure{
+  margin-bottom: 26px;
+}
+
+.main figure div{
+  width: 136px;
+  height: 127px;
+  border: 1px solid rgb(164, 174, 177);
+  border-radius: 7px;
+  background-color: rgb(255, 255, 255);
+}
+
+.first_column{
+  float: left;
+  margin: 16px 0 0 23px;
+}
+
+.main figure div img{
+  display: block;
+  margin: 5px 0 0 29px;
+}
+
+.main figure span{
+  color: #114165;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.first_column figure p:first-child{
+  font-family: "Lucida Sans Unicode";
+  font-size: 14.59px;
+  color: #206988;
+  text-align: center;
+  margin-right: 6px;
+  letter-spacing: 0.3px;
+}
+
+.first_column figure p{
+  color: #1f2528;
+  font-family: "Lucida Sans Unicode";
+  font-size: 12.77px;
+  text-align: center;
+}
+
+.first_column figcaption{
+  color: #114165;
+  font-family: Arial;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
+  text-align: center;
+  margin: 4px 0 0 5px;
+  letter-spacing: 0.4px;
+}
+
+.second_column{
+  float: left;
+  margin: 17px 0 0 29px;
+}
+
+.second_column figure p:first-child{
+  font-family: "Lucida Sans Unicode";
+  font-size: 14.59px;
+  color: #206988;
+  text-align: center;
+  margin: -1px -2px 0px 0px;
+  letter-spacing: 0.5px
+}
+
+.second_column figure p{
+  color: #1f2528;
+  font-family: "Lucida Sans Unicode";
+  font-size: 12.77px;
+  text-align: center;
+  margin: 0 0 0 2px;
+}
+
+.second_column figcaption{
+  color: #114165;
+  font-family: Arial;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
+  text-align: center;
+  margin: 5px 0 0 8px;
+  letter-spacing: 0.6px;
+}
+
+.third_column{
+  float: left;
+  margin: 15px 0 0 30px;
+}
+
+.third_column figure p:first-child{
+  font-family: "Lucida Sans Unicode";
+  font-size: 14.59px;
+  color: #206988;
+  text-align: center;
+}
+
+.third_column figure p{
+  color: #1f2528;
+  font-family: "Lucida Sans Unicode";
+  font-size: 12.77px;
+  text-align: center;
+}
+
+.third_column figcaption{
+  color: #114165;
+  font-family: Arial;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
+  text-align: center;
+  margin: 4px 0 0 9px;
+  letter-spacing: 0.4px;
+}
+
+.aside_right{
+  float: right;
+}
+
+.brends{
+  width: 179px;
+  height: 23px;
+  border: 1px solid rgb(121, 135, 141);
+  box-shadow: 0px 3px 3px 0px rgba(150, 150, 150, 0.75);
+  border-radius: 50px;
+  background-image: url('../img/file.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left;
+  margin: 16px 2px 0 0px;
+  background-position: 2px 1px;
+}
+.brends span{
+  font-size: 14px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb(12, 50, 86);
+  line-height: 2;
+  margin-left: 29px;
+  text-transform: uppercase;
+}
+
+.tires_choose{
+  width: 134px;
+  height: 25px;
+  border: 1px solid rgb(121, 135, 141);
+  box-shadow: 0px 3px 3px 0px rgba(150, 150, 150, 0.75);
+  border-radius: 11px;
+  background-image: url('../img/circle.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin: 16px 0px 4px 14px;
+  background-position: 4px 0;
+}
+
+.tires_choose p{
+  font-size: 14px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb(12, 50, 86);
+  line-height: 2;
+  text-align: left;
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+
+.checkbox input[type="checkbox"]{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(17, 65, 101);
+  background-color: rgb(255, 255, 255);
+  box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.75);
+  width: 10px;
+  height: 10px;
+  margin: 6px 0 0 25px;
+}
+
+.checkbox label{
+  margin: 0 0 0 9px;
+  font-size: 12.73px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb(70, 89, 97);
+  line-height: 1.964;
+  text-align: left;
+}
+
+.discs_choose{
+  width: 135px;
+  height: 26px;
+  border: 1px solid rgb(121, 135, 141);
+  box-shadow: 0px 3px 3px 0px rgba(150, 150, 150, 0.75);
+  border-radius: 12px;
+  background-image: url('../img/circle.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin: 8px 0px 5px 13px;
+  background-position: 3px 0;
+}
+
+.discs_choose p{
+  font-size: 14px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb(12, 50, 86);
+  line-height: 2;
+  text-align: left;
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+
+.aside_right input[type="submit"]{
+  width: 83px;
+  height: 27px;
+  border: 1px solid rgb(167, 171, 174);
+  border-radius: 13px;
+  background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+  text-transform: uppercase;
+  font-size: 11px;
+  font-family: Arial;
+  color: #bdbdbd;
+  margin: 13px 0 0 22px;
+  letter-spacing: 0.3px;
+}
+
+.brends_logo{
+  display: table;
+  margin: 36px 0 0 118px;
+}
+
+.brends_logo a{
+  display: table-cell;
+}
+
+.brends_logo img{
+  margin: 0 13px 0 0;
+  vertical-align: middle;
+}
+
+.foot{
+  width: 908px;
+  height: 98px;
+  border:1px solid #213a4d;
+  background-color: #213a4d;
+  margin-top: 27px;
+  text-align: center;
+}
+
+.foot a{
+  text-decoration: none;
+  color: #bec6c9;
+  font-size: 12px;
+  font-family: Arial;
+  margin: auto;
+}
+
+.foot span{
+  color:#bec6c9;
+}
+
+.foot a:hover{
+  color: #52abcb;
+}
+
+.information {
+  margin: 8px auto 15px;
+}
+
+.information p{
+  color: #7f4740;
+  font-size: 12px;
+  font-family: Arial;
+}
+
+.information span{
+  margin: 0 8px 0 8px;
+}
+
+.foot p{
+  color: #7f4740;
+  font-size: 10px;
+  font-family: Arial;
+}
