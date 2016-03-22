@@ -1,0 +1,29 @@
+.header {
+  text-align: center;
+}
+
+.formClass {
+  display: block;
+  font-family: Arial;
+  font-size: 14px;
+  margin: 50px 0 0 50px;
+  }
+
+.labelClass {
+  margin: 20px;
+  display: block;
+}
+
+.checkResults {
+  display: block;
+  text-align: center;
+  background-color: lightblue;
+  padding: 15px;
+  margin:20px auto;
+  border: 1px solid black;
+}
+
+.wrapper {
+  margin: auto;
+  width: 800px;
+}
