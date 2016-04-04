@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.time{
+  display: block;
+  height: 20px;
+}
+
+.pause {
+  display: none;
+}
+
+.clocks {
+  padding-bottom: 20px;
+}
